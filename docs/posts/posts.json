@@ -1,19 +1,19 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to Sociodata",
-    "description": "Welcome to our new blog, Sociodata. We hope you enjoy \nreading what we have to say!",
+    "title": "Første indlæg på Sociodata",
+    "description": "Dette er intro!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "soz",
+        "url": "linkedin"
       }
     ],
     "date": "2025-02-23",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
+    "contents": "\r\nDette er første indlæg på bloggen.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-02-23T18:54:56+01:00",
-    "input_file": {}
+    "last_modified": "2025-02-23T19:17:01+01:00",
+    "input_file": "welcome.knit.md"
   }
 ]
