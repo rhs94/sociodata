@@ -1,17 +1,19 @@
 {
-    "id": "141D4871",
-    "path": "C:/Users/shr94/Desktop/sociodata/about.Rmd",
-    "project_path": "about.Rmd",
+    "id": "388D9D05",
+    "path": "C:/Users/shr94/Desktop/sociodata/_posts/welcome/welcome.Rmd",
+    "project_path": "_posts/welcome/welcome.Rmd",
     "type": "r_markdown",
-    "hash": "1863708126",
+    "hash": "1831642203",
     "contents": "",
     "dirty": false,
-    "created": 1740333301309.0,
+    "created": 1740333300681.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "24,0",
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1740333294,
