@@ -10,10 +10,13 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-output:
-  distill::distill_article:
-    includes:
-      after_body: "disqus.html"
+output: distill::distill_article
+base_url: sociodata.disqus.com
+collections:
+  posts:
+    categories: true
+    disqus: disqus.html
+    share: [pinterest, twitter, linkedin, facebook]
 rss:
   full_content: true
   categories:
