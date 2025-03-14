@@ -3,7 +3,7 @@ title: "Hvordan påvirker arbejdsbelastningen det subjektive velvære?"
 description: |
   En komparativ undersøgelse af fem velfærdsstater
 author:
-  - name: soz 
+  - name: Seher Özden
     url: linkedin
     affiliation: 
     affiliation_url: 

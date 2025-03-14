@@ -11,10 +11,13 @@ navbar:
     - text: "About"
       href: about.html
 output: distill::distill_article
+
 collections:
-  posts: 
-    disqus: sociodata
-    share: [linkedin, twitter]
+  posts:
+    disqus: 
+      shortname: sociodata
+      hidden: false
+    share: [pinterest, twitter, linkedin, facebook]
 base_url: sociodata.disqus.com
 rss:
   full_content: true
