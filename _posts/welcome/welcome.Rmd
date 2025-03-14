@@ -29,10 +29,10 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Intro
-xxxxxx
+xxxxxx 
 
 ## Data
-xxxxx
+xxxxxxx
 
 ## Velfærdsmodeller
 xxxxxxx
