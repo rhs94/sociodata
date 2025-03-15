@@ -15,7 +15,7 @@ base_url: sociodata.disqus.com
 collections:
   posts:
     categories: true
-    disqus: disqus.html
+
     share: [pinterest, twitter, linkedin, facebook]
 rss:
   full_content: true
