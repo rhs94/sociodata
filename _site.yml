@@ -15,9 +15,7 @@ base_url: sociodata.disqus.com
 collections:
   posts:
     categories: true
-    share: 
-    - text: "Del"
-      href: [pinterest, twitter, linkedin, facebook]
+    share: [pinterest, twitter, linkedin, facebook]
 rss:
   full_content: true
   categories:
