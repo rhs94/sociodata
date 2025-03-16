@@ -139,8 +139,7 @@ plot.DEGB
 
 ## Referencer
 
-::: {#disqus_thread}
-:::
+## Skriv en kommentar
 
 <script>
     /**
