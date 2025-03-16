@@ -11,14 +11,13 @@ date: 02-23-2025
 output:
   distill::distill_article:
     toc: true
-    number_sections: true
-    toc_depth: 4
-    code_folding: true
-  toc_float: 
-    collapsed: false
-    smooth_scroll: true
+    toc_depth: 6
+    toc_float: true
+    self_contained: false
   includes: 
     after_body: disqus.html
+bibliography: zoterobib.bib
+link-citations: true
 ---
 
 ```{r setup, include=FALSE}
@@ -30,15 +29,19 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Intro
-xxxxxx 
+
+xxxxxx
 
 ## Data
+
 xxxxxxx
 
 ## Velfærdsmodeller
+
 xxxxxxx
 
 ## Udviklingen i arbejdsmarkedet
+
 xxxxxxx
 
 ```{r Pakker og skriftype, message=FALSE, include=FALSE}
@@ -55,7 +58,6 @@ windowsFonts(CN = windowsFont("Courier New"))
 windowsFonts(Calibri = windowsFont("Calibri"))
 ```
 
-
 ```{r Indlæser data, include=FALSE}
 #setwd("G:/Mit drev/speciale mappen/Speciale - Subjektivt velvær")
 datam <- read_excel("G:/Mit drev/speciale mappen/Speciale - Subjektivt velvær/DKNOSEDEGB.partime.m Eurostat.xlsx")
@@ -64,8 +66,6 @@ datak <- read_excel("G:/Mit drev/speciale mappen/Speciale - Subjektivt velvær/D
 print(n=25, datam)
 print(n=25, datak)
 ```
-
-
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, layout="l-body-outset", fig.height=3.5}
 ## Part-time employment as percentage of the total employment, by sex and age (%), 15-64 år - Skandinavien vs. Tyskland og Storbritannien   
@@ -137,7 +137,11 @@ plot.DEGB
 #dev.off()
 ```
 
-<div id="disqus_thread"></div>
+## Referencer
+
+::: {#disqus_thread}
+:::
+
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -155,4 +159,5 @@ plot.DEGB
     (d.head || d.body).appendChild(s);
     })();
 </script>
+
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
