@@ -8,6 +8,8 @@ author:
     affiliation: 
     affiliation_url: 
 date: 02-23-2025
+link-citations: true
+bibliography: references.bib
 output:
   distill::distill_article:
     toc: true
@@ -16,8 +18,6 @@ output:
     self_contained: false
   includes: 
     after_body: disqus.html
-link-citations: true
-bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
