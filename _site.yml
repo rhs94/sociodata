@@ -10,13 +10,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-output: distill::distill_article
 base_url: sociodata.disqus.com
+output: distill::distill_article
 collections:
   posts:
-    disqus: 
-      shortname: sociodata
-      hidden: false
     share: [pinterest, twitter, linkedin, facebook]
 rss:
   full_content: true
