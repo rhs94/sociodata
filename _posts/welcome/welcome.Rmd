@@ -16,8 +16,8 @@ output:
     self_contained: false
   includes: 
     after_body: disqus.html
-bibliography: zoterobib.bib
 link-citations: true
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -34,7 +34,7 @@ xxxxxx
 
 ## Data
 
-xxxxxxx
+xxxxxxx [@agerskov2022]
 
 ## Velfærdsmodeller
 
@@ -137,9 +137,9 @@ plot.DEGB
 #dev.off()
 ```
 
-## Referencer
 
-## Skriv en kommentar
+
+
 
 <script>
     /**
