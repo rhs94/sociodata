@@ -1,0 +1,35 @@
+/* Default Light Mode Styles */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    --background-color: #1e1e1e;
+    --text-color: #ffffff;
+}
+
+/* Anvend farverne på body og tekst */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Knappens styling */
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dark-mode-toggle:hover {
+    opacity: 0.8;
+}
