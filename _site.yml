@@ -15,8 +15,15 @@ output: distill::distill_article
 collections:
   posts:
     share: [pinterest, twitter, linkedin, facebook]
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
 rss:
   full_content: true
-  categories:
-    - portfolios
-    - forecasting
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    <meta name="google-site-verification" content="dWXgT8TXTV8E-m9q7xPG_AbtUrtMuVX2dJE5faqmru8" />

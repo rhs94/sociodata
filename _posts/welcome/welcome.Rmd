@@ -17,6 +17,9 @@ output:
   toc_float: 
     collapsed: false
     smooth_scroll: true
+  categories: 
+    - test1
+    - test2
   includes: 
     after_body: disqus.html
 link-citations: true
